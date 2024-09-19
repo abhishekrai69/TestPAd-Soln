@@ -1,0 +1,15 @@
+/*
+ * Complete the function countDigits
+ * @params
+ *   n -> integer , whose digits are to be calculated
+ * @returns
+ *   integer, number of digits in the number
+ */
+int countDigits(int n){
+  int cn=0;
+  while(n!=0){
+    n=n/10;
+    cn++;
+  }
+  return cn;
+}
