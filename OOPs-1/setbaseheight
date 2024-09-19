@@ -1,0 +1,18 @@
+ void setbaseheight(int b, int h)
+ {
+   base = b;
+   height = h;
+ }
+ float area()
+ {
+   float ar = (0.5f)*(base*height);
+   return ar;
+ }
+ int getBase()
+ {
+   return base;
+ }
+ int getHeight()
+ {
+   return height;
+ }
